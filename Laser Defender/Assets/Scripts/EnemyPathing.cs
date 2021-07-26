@@ -26,13 +26,12 @@ public class EnemyPathing : MonoBehaviour
 
     private void Move()
     {
-        if (waypointIndex <= waypoints.Count - 1)
+        if (waypointIndex <= waypoints.Count -1)
         {
             var targetPosition = waypoints[waypointIndex].transform.position;
 
             var movementThisFrame = moveSpeed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards
-                (transform.position, targetPosition, movementThisFrame);
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, movementThisFrame);
 
             if (transform.position == targetPosition)
             {
