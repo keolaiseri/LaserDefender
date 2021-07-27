@@ -5,12 +5,15 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] float health = 100;
+    [SerializeField] float shotCounter;
+    [SerializeField] float minTimeBetweenShots = 0.2f;
+    [SerializeField] float maxTimeBetweenShots = 3f;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        shotCounter = Random.Range()
     }
 
     // Update is called once per frame
