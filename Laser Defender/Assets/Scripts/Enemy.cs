@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] float health = 100;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +18,18 @@ public class Enemy : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        DamageDealer damageDealer = other.gameObject.GetComponent<DamageDealer>();
+        health -= damageDealer.GetDamage();
+
+        if(health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 }
+
