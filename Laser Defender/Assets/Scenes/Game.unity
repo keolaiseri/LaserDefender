@@ -219,9 +219,8 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: 3bb077c654799427d94e4d912f744adf, type: 2}
   - {fileID: 11400000, guid: c117c13821fe643f8b40937ac039722a, type: 2}
-  - {fileID: 11400000, guid: 241eb8d30969e4e5faeedb41c26a3261, type: 2}
-  - {fileID: 11400000, guid: 631bdfb9da23e41f99c77bdc5f7dd0ef, type: 2}
   startingWave: 0
+  looping: 1
 --- !u!4 &507316465
 Transform:
   m_ObjectHideFlags: 0
@@ -580,6 +579,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path (0)
       objectReference: {fileID: 0}
+    - target: {fileID: 7196882797476100230, guid: 2e91cf261e8584381aee127dd5d8dadb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196882797476100230, guid: 2e91cf261e8584381aee127dd5d8dadb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.59
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e91cf261e8584381aee127dd5d8dadb, type: 3}
 --- !u!1001 &3785475794913183217
@@ -708,6 +717,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3665831463277404024, guid: a840642c729bd45f4b93369719882090,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665831463277404024, guid: a840642c729bd45f4b93369719882090,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854627345464282579, guid: a840642c729bd45f4b93369719882090,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854627345464282579, guid: a840642c729bd45f4b93369719882090,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.13
+      objectReference: {fileID: 0}
     - target: {fileID: 8097265241121165604, guid: a840642c729bd45f4b93369719882090,
         type: 3}
       propertyPath: m_RootOrder
