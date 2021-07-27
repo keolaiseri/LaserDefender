@@ -217,8 +217,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfigs:
+  - {fileID: 11400000, guid: 3bb077c654799427d94e4d912f744adf, type: 2}
+  - {fileID: 11400000, guid: c117c13821fe643f8b40937ac039722a, type: 2}
   - {fileID: 11400000, guid: 241eb8d30969e4e5faeedb41c26a3261, type: 2}
   - {fileID: 11400000, guid: 631bdfb9da23e41f99c77bdc5f7dd0ef, type: 2}
+  startingWave: 0
 --- !u!4 &507316465
 Transform:
   m_ObjectHideFlags: 0
