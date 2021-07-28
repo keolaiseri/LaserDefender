@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] GameObject deathVFX;
     [SerializeField] float durationOfExplosion = 1f;
+    [SerializeField] AudioClip deathSound;
+    [SerializeField] [Range(0,1)] float deathSoundVolume = 0.75f;
  
 
 
@@ -80,6 +82,7 @@ public class Enemy : MonoBehaviour
                 transform.rotation
                 );
         Destroy(explosion, durationOfExplosion);
+        AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
 
     }
 }
