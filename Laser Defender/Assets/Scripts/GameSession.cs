@@ -39,4 +39,12 @@ public class GameSession : MonoBehaviour
 
     }
 
+    public void ResetGame()
+    {
+
+        Destroy(gameObject);
+    }
+
+
+
 }
